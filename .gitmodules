@@ -1,0 +1,7 @@
+[submodule "dynamic-forms-android"]
+	path = dynamic-forms-android
+	url = https://github.com/willianpinho/dynamic-forms-android.git
+
+[submodule "dynamic-forms-ios"]
+	path = dynamic-forms-ios
+	url = https://github.com/willianpinho/dynamic-forms-ios.git
