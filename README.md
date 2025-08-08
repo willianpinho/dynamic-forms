@@ -37,12 +37,12 @@ Dynamic Forms is a sophisticated form management system that dynamically renders
 This main repository contains:
 - Shared configurations and documentation
 - JSON schemas for dynamic forms (`200-form.json`, `all-fields.json`)
-- Native implementations with independent architectures
+- Git submodules for native implementations with independent architectures
 
-### Platform Implementations
+### Submodules
 
-- `dynamic-forms-android/` - **Kotlin/Jetpack Compose** (Production Ready)
-- `dynamic-forms-ios/` - **Swift/SwiftUI** (Production Ready)
+- `dynamic-forms-android/` - **Kotlin/Jetpack Compose** (Production Ready) - [Repository](https://github.com/willianpinho/dynamic-forms-android)
+- `dynamic-forms-ios/` - **Swift/SwiftUI** (Production Ready) - [Repository](https://github.com/willianpinho/dynamic-forms-ios)
 
 ## Working with Submodules
 
