@@ -1,0 +1,201 @@
+# ===================================
+# Dynamic Forms iOS - Optimized .gitignore
+# Enterprise-grade iOS project with Swift Package Manager
+# ===================================
+
+# ===================================
+# Xcode User Settings & Build Artifacts
+# ===================================
+xcuserdata/
+build/
+DerivedData/
+
+# User-specific Xcode files
+*.xcuserstate
+*.xcuserdatad
+
+# Xcode compatibility files (legacy)
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# ===================================
+# Swift & Objective-C Build Artifacts
+# ===================================
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ===================================
+# Swift Package Manager (SPM)
+# ===================================
+# Keep this section - essential for modular SPM projects
+
+# SPM build artifacts
+.build/
+.swiftpm/
+
+# SPM resolved packages (should be committed for reproducible builds)
+# Package.resolved - KEEP THIS TRACKED for reproducible builds
+
+# SPM user data
+Package.pins
+
+# Xcode-generated SPM files
+*.xcodeproj
+# Note: Our project structure uses local packages, so we want to track them
+
+# ===================================
+# Package Managers (Optional - not used in this project)
+# ===================================
+# CocoaPods (not used)
+# Pods/
+# Podfile.lock
+
+# Carthage (not used)
+# Carthage/Checkouts
+# Carthage/Build/
+
+# Accio (not used)
+Dependencies/
+.accio/
+
+# ===================================
+# Development Tools
+# ===================================
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection tools
+iOSInjectionProject/
+
+# ===================================
+# IDE & Editor Files
+# ===================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===================================
+# macOS System Files
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===================================
+# Temporary & Log Files
+# ===================================
+*.log
+*.tmp
+*.temp
+*~.nib
+*.swiftdoc
+
+# ===================================
+# Documentation Generation
+# ===================================
+docs/
+*.generated.md
+
+# ===================================
+# Testing & Coverage
+# ===================================
+# XCTest results
+*.xcresult/
+
+# Code coverage
+*.profraw
+*.profdata
+Coverage.profdata
+
+# ===================================
+# Security & Secrets
+# ===================================
+# API keys and secrets
+secrets.plist
+*.keys
+*.secrets
+.env
+.env.local
+.env.production
+
+# Certificates and provisioning profiles
+*.mobileprovision
+*.p12
+*.cer
+*.certSigningRequest
+
+# ===================================
+# Project-Specific Exclusions
+# ===================================
+# Dynamic Forms specific temporary files
+temp_forms/
+test_data/
+*.debug.json
+
+# Local configuration overrides
+local.xcconfig
+dev.xcconfig
+
+# ===================================
+# Performance & Analytics
+# ===================================
+# Instruments data
+*.trace
+
+# Firebase (if used in future)
+GoogleService-Info.plist
+google-services.json
+
+# ===================================
+# Comments for Team Reference
+# ===================================
+# What we DO track:
+# ✅ Package.resolved - for reproducible builds
+# ✅ Our local SPM packages in Packages/ folder
+# ✅ Project and workspace files
+# ✅ JSON form assets
+# ✅ Source code and resources
+#
+# What we DON'T track:
+# ❌ User-specific Xcode settings
+# ❌ Build artifacts and derived data
+# ❌ Temporary and cache files
+# ❌ IDE-specific configurations
+# ❌ System files (.DS_Store, etc.)

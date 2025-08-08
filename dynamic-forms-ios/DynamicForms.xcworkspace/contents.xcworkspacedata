@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DynamicForms/DynamicForms.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Packages">
+      <Group
+         location = "container:"
+         name = "Core">
+         <FileRef
+            location = "group:DynamicForms/Packages/Core/DesignSystem">
+         </FileRef>
+         <FileRef
+            location = "group:DynamicForms/Packages/Core/UIComponents">
+         </FileRef>
+         <FileRef
+            location = "group:DynamicForms/Packages/Core/Utilities">
+         </FileRef>
+         <FileRef
+            location = "group:DynamicForms/Packages/Core/TestUtils">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "Domain">
+         <FileRef
+            location = "group:DynamicForms/Packages/Domain">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "Data">
+         <FileRef
+            location = "group:DynamicForms/Packages/Data/DataLocal">
+         </FileRef>
+         <FileRef
+            location = "group:DynamicForms/Packages/Data/DataMapper">
+         </FileRef>
+         <FileRef
+            location = "group:DynamicForms/Packages/Data/DataRepository">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "Features">
+         <FileRef
+            location = "group:DynamicForms/Packages/Features/FormListFeature">
+         </FileRef>
+         <FileRef
+            location = "group:DynamicForms/Packages/Features/FormEntriesFeature">
+         </FileRef>
+         <FileRef
+            location = "group:DynamicForms/Packages/Features/FormDetailFeature">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
