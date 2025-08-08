@@ -1,0 +1,48 @@
+{
+  "title": "All Fields Test Form",
+  "fields": [
+    {
+      "id": "text_field",
+      "type": "text",
+      "label": "Text Field",
+      "required": true,
+      "placeholder": "Enter text here"
+    },
+    {
+      "id": "number_field", 
+      "type": "number",
+      "label": "Number Field",
+      "required": false,
+      "placeholder": "Enter number"
+    },
+    {
+      "id": "description_field",
+      "type": "description",
+      "label": "Description", 
+      "content": "<p>This is a test description field with <strong>HTML</strong> content.</p>"
+    },
+    {
+      "id": "dropdown_field",
+      "type": "dropdown",
+      "label": "Dropdown Field",
+      "required": true,
+      "options": [
+        "Option 1",
+        "Option 2", 
+        "Option 3"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "general_section",
+      "title": "General Information",
+      "fields": ["text_field", "number_field"]
+    },
+    {
+      "id": "details_section", 
+      "title": "Additional Details",
+      "fields": ["description_field", "dropdown_field"]
+    }
+  ]
+}

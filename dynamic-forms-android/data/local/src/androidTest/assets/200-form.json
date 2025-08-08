@@ -1,0 +1,46 @@
+{
+  "title": "200 Fields Test Form",
+  "fields": [
+    {
+      "id": "field_1",
+      "type": "text",
+      "label": "Field 1",
+      "required": true
+    },
+    {
+      "id": "field_2", 
+      "type": "number",
+      "label": "Field 2",
+      "required": false
+    },
+    {
+      "id": "field_3",
+      "type": "dropdown",
+      "label": "Field 3",
+      "options": ["A", "B", "C"]
+    },
+    {
+      "id": "field_4",
+      "type": "description",
+      "content": "<p>Description field 4</p>"
+    },
+    {
+      "id": "field_5",
+      "type": "text",
+      "label": "Field 5",
+      "required": true
+    }
+  ],
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Section 1", 
+      "fields": ["field_1", "field_2"]
+    },
+    {
+      "id": "section_2",
+      "title": "Section 2",
+      "fields": ["field_3", "field_4", "field_5"]
+    }
+  ]
+}
